@@ -3,8 +3,8 @@
 by [<ins>Nina Shvetsova</ins>](https://ninatu.github.io/), 
 [<ins>Arsha Nagrani</ins>](https://a-nagrani.github.io/),
 [<ins>Bernt Schiele</ins>](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele),
-[<ins>Hilde Kuehne</ins>](https://hildekuehne.github.io/).
-[<ins>Christian Rupprecht</ins>](https://chrirupp.github.io/),
+[<ins>Hilde Kuehne</ins>](https://hildekuehne.github.io/),
+[<ins>Christian Rupprecht</ins>](https://chrirupp.github.io/).
 
 # DB2 Dataset
 
@@ -170,56 +170,4 @@ The terms of this license can be found at: [http://creativecommons.org/licenses/
 However, certain parts of the underlying dataset may be subject to stricter licensing conditions from the corresponding video datasets.
 
 
-<html>
-  <head>
-    <title>DB2 Dataset</title>
-    <script type="application/ld+json">
-    {
-      "@context":"https://schema.org/",
-      "@type":"Dataset",
-      "name":"DB2 Dataset",
-      "description":"DB2 Dataset",
-      "url":"https://github.com/ninatu/db2",
-      "keywords":[
-         "Representation Bias",
-         "Object Bias",
-         "Video Understanding",
-         "Action Recognition",
-         "Video Retrieval",
-         "Textual Descriptions"
-      ],
-      "license" : "http://creativecommons.org/licenses/by/4.0",
-      "isAccessibleForFree" : true,
-      "hasPart" : [
-        {
-          "@type": "Dataset",
-          "name": "DB2-Annotations",
-          "description": "DB2-Annotations include frame annotations for four different concept categories: *objects,  activities, verbs*, and *objects+composition+activities* for the 12 considered datasets for both train and test/val splits. For test/val splits, we additionally provide *objects+composition+activities*_15_words -- a ~15-words summary of *objects+composition+activities* descriptions.",
-          "license" : "http://creativecommons.org/licenses/by/4.0",
-          "creator":{
-             "name": "by Nina Shvetsova, Arsha Nagrani, Bernt Schiele, Hilde Kuehne, Christian Rupprecht"
-          }
-        },
-        {
-          "@type": "Dataset",
-          "name": "DB2-Splits",
-          "description": "DB2-Splits include objects debiased test/val splits for the 12 considered datasets. Object-debiased test/val splits are subsets (subset of video ids) of the original test/val splits with object-biased items removed.",
-          "license" : "http://creativecommons.org/licenses/by/4.0",
-          "creator":{
-             "name": "by Nina Shvetsova, Arsha Nagrani, Bernt Schiele, Hilde Kuehne, Christian Rupprecht"
-          }
-        }
-      ],
-      "distribution":[
-         {
-            "@type":"DataDownload",
-            "encodingFormat":"JSON",
-            "contentUrl":"https://github.com/ninatu/db2"
-         }
-      ]
-    }
-    </script>
-  </head>
-  <body>
-  </body>
-</html>
+
