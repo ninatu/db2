@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "DB2 Dataset",
+  "description": "Our DB2 Dataset consist of two parts: DB2-Annotations and DB2-Splits. DB2-Annotations include frame annotations for four different concept categories: objects,  activities, verbs, and objects+composition+activities for the 12 considered datasets for both train and test/val splits. For test/val splits, we additionally provide objects+composition+activities_15_words -- a ~15-words summary of *objects+composition+activities* descriptions. DB2-Splits include objects debiased test/val splits for the 12 considered datasets. Object-debiased test/val splits are subsets (subset of video ids) of the original test/val splits with object-biased items removed. ",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "citeAs": "@article{shvetsova2024db2, title={DB2: DeBiasing Video Datasets for Enhanced Video Understanding},, author={Nina Shvetsova, Arsha Nagrani, Bernt Schiele, Hilde Kuehne, Christian Rupprecht}, year={2024}}",
+  "url": "https://github.com/ninatu/db2",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "github-repository",
+      "name": "github-repository",
+      "description": "DB2 Dataset repository on GitHub.",
+      "contentUrl": "https://github.com/ninatu/db2",
+      "encodingFormat": "git+https",
+      "sha256": "main"
+    }
+  ]
+}
